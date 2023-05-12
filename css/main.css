@@ -24,6 +24,7 @@
   --font-poppins-bold: 'Poppins-Bold', sans-serif;
   --font-poppins-medium: 'Poppins-Medium', sans-serif;
   --font-montserrat-bold: 'Montserrat-Bold', sans-serif;
+  --color-main:#EAE5C7;
   --color-text: #999999;
   --color-text2: #666666;
   --bg-gradient1: #c850c0;
@@ -218,11 +219,12 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: var(--bg-patter);
+  background-color: var(--color-main);
+  /* background: var(--bg-patter);
   background: -webkit-linear-gradient(-135deg, var(--bg-gradient1), var(--bg-gradient2));
   background: -o-linear-gradient(-135deg, var(--bg-gradient1), var(--bg-gradient2));
   background: -moz-linear-gradient(-135deg, var(--bg-gradient1), var(--bg-gradient2));
-  background: linear-gradient(-135deg, var(--bg-gradient1), var(--bg-gradient2));
+  background: linear-gradient(-135deg, var(--bg-gradient1), var(--bg-gradient2)); */
 }
 
 .wrap-login100 {
